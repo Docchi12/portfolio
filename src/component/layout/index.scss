@@ -41,8 +41,9 @@
 .container.about-page,
 .container.contact-page,
 .container.portfolio-page,
-.container.myskill-page{
-
+.container.myskill-page,
+.container.certificate-page{
+    
     h1 {
         font-size: 53px;
         font-family: 'Coolvetica';
@@ -101,7 +102,8 @@
         &.about-page,
         &.contact-page,
         &.portfolio-page,
-        &.myskill-page {
+        &.myskill-page,
+        &.certificate-page {
 
             .text-zone{
                 position: initial;

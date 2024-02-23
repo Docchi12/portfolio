@@ -4,6 +4,8 @@ import Logo from './Logo';
 import {useState} from 'react';
 import AnimatedLetters from '../AnimatedLetters';
 import Loader from 'react-loaders';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faWhatsapp } from '@fortawesome/free-brands-svg-icons';
 
 const Home = () =>{
     const [LetterClass, setLetterClass] = useState ('text-animate')
@@ -31,7 +33,10 @@ const Home = () =>{
                 idx={14} />
                 </h1>
                 <h2>Frontend Developer | Backend Developer</h2>
-                <Link to="/contact" className='flat-button'>CONTACT ME </Link>
+                <Link to="https://wa.me//6285281008856" className='flat-button'>
+                    <FontAwesomeIcon icon={faWhatsapp} color='#00FF00'/>
+                    CONTACT ME 
+                </Link>
 
             </div>
             <Logo />

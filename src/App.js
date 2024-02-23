@@ -6,6 +6,7 @@ import About from './component/About';
 import Contact from './component/Contact';
 import Portfolio from './component/Portfolio';
 import Myskill from './component/Myskill'
+import Certificate from './component/Certificate'
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
     <Route path='/myskill' element={<Myskill/>}/>
     <Route path='/contact' element={<Contact/>}/>
     <Route path='/portfolio' element={<Portfolio/>}/>
+    <Route path='/certificate' element={<Certificate/>}/>
     </Route>
   </Routes> 
   </>

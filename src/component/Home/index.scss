@@ -36,7 +36,7 @@ h2 {
 
 .flat-button {
     color: #5f9ea0;
-    font-size: 13px;
+    font-size: 12px;
     font-weight: 400;
     letter-spacing: 4px;
     font-family: sans-serif;
@@ -48,10 +48,17 @@ h2 {
     animation: fadeIn 1s 1.8s backwards;
     white-space: nowrap;
     cursor: pointer;
+    border-radius:10px ;
+    
     &:hover{
         background: #008b8b;
         color:  #fff;
     }
+}
+
+svg {
+    width: 20px;
+    padding: 2px;
 }
 
 @media screen and (max-width: 1200px) {

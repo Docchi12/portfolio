@@ -3,7 +3,7 @@ import './index.scss';
 import LogoS from '../../assets/images/logo-m.png';
 import LogoSubtitle from'../../assets/images/Muhdor.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faBars, faBook, faClose, faEnvelope, faHome, faSuitcase, faUser } from '@fortawesome/free-solid-svg-icons';
+import { faBars, faBook, faCertificate, faClose, faEnvelope, faHome, faSuitcase, faUser } from '@fortawesome/free-solid-svg-icons';
 import { faGithub, faGitlab, faLinkedin, faTelegram, } from '@fortawesome/free-brands-svg-icons';
 import { useState } from 'react';
 
@@ -29,6 +29,9 @@ const Sidebar = () => {
             </NavLink>
             <NavLink  onClick={() => setShowNav(false)} exact='true' activeclassname="active" className="portfolio-link" to='/portfolio'>
                 <FontAwesomeIcon icon={faSuitcase} color='#4d4d4e'/>
+            </NavLink>
+            <NavLink  onClick={() => setShowNav(false)} exact='true' activeclassname="active" className="certificate-link" to='/certificate'>
+                <FontAwesomeIcon icon={faCertificate} color='#4d4d4e'/>
             </NavLink>
             <NavLink  onClick={() => setShowNav(false)} exact='true' activeclassname="active" className="contact-link" to="/contact">
                 <FontAwesomeIcon icon={faEnvelope} color='#4d4d4e'/>

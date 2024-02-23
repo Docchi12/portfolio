@@ -1,0 +1,16 @@
+{
+    "certificate":[
+        {
+            "cover":"/certificate/first/syahadah 30juz.png",
+            "title": "Syahadah",
+            "description": "MyDream",
+            "url": ""
+        },
+        {
+            "cover":"/certificate/second/sertif-reactjs.png",
+            "title": "Certificate",
+            "description": "React, Tailwind, GitLab",
+            "url": "https://sanbercode.com/certificate/in/16f49411-e378-485b-bd20-b43a3c85aa1d"
+        }
+    ]
+}
