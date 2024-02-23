@@ -12,7 +12,9 @@
     }
 
     img {
-        width: 200px;
+        // width: 200px;
+        max-width: 100%;
+        height: auto;
     }
 
     .certificate-container {
@@ -127,6 +129,11 @@
     .certificate-box {
         height: 200px;
         max-width: calc(50% - 10px);
+    }
+
+    img {
+        max-width: 100%;
+        height: auto;
     }
     }
 }
