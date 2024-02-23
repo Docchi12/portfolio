@@ -1,0 +1,24 @@
+
+.logo-container {
+    z-index: 0;
+    width: 400px;
+    height: 609px;
+    position: absolute;
+    background-color: #008b8b32;
+    border-radius:0 60% 60% 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    top: 0;
+    right: 8%;
+    bottom: 0;
+    left: auto;
+    margin: auto;
+    animation: fadeIn 1s 1.8s backwards;
+}
+
+
+.solid-logo {
+    height: 380px;
+    margin-top: 110px;
+    position: absolute;
+}
